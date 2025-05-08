@@ -1,4 +1,6 @@
-# Ejercicio 1: Verificar si un número es par
+# 📋 Ejercicio - Testing TDD con Jasmine
+
+## Ejercicio 1: Verificar si un número es par
 
 1. **Descripción**  
    Escribe una función llamada `esPar` que reciba un número y devuelva **`true`** si el número es par, o **`false`** si es impar.
@@ -9,7 +11,7 @@
 
 ---
 
-# Ejercicio 2: Calcular el factorial de un número
+## Ejercicio 2: Calcular el factorial de un número
 
 1. **Descripción**  
    Escribe una función llamada `factorial` que reciba un número entero no negativo y devuelva su factorial.  
