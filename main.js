@@ -1,3 +1,5 @@
 const esPar = (num) => {
-    if (num % 2 === 0) {return true}
+    return num % 2 === 0
 }
+
+console.log(esPar(2))

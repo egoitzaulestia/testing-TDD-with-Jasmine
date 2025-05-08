@@ -7,7 +7,6 @@ describe('Escribe una función llamada esPar que reciba un número y devuelva tr
     })
 
     it('should be a function', () => {
-
         expect(typeof esPar).toEqual('function')
     })
 
@@ -15,6 +14,13 @@ describe('Escribe una función llamada esPar que reciba un número y devuelva tr
         expect(typeof esPar()).toEqual('boolean')
     })
 
+    it('should be true for even numbers', () => {
+        expect(esPar(2)).toBe(true)
+    })
+
+    it('should be false for odd number', () => {
+        expect(esPar(3)).toBe(false)
+    })
 
 })
     
